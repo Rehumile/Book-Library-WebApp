@@ -1,6 +1,11 @@
 
 export const BOOKS_PER_PAGE = 36;
 
+
+
+/**
+ * An object literal that contains references to the all the HTML elements referenced through the operation of the web app either upon initialisation or while itr running (via event listeners). This will ensure that all the user interface elements can be access and seen in a structured manner in a single data structure
+ */
 export const html = {
   list: {
       item: document.querySelector('[data-list-items]'),
@@ -35,6 +40,10 @@ export const html = {
   }
   }
 
+/**
+ * This object literal will the authors ID and author Name 
+ * which is exported to be used the scripts.js file
+ */
 
 export const authors = {
   "194e164b-9365-4358-b44a-f28a93cc528f": "Steven D. Levitt",
@@ -126,6 +135,9 @@ export const authors = {
   "37018341-31f4-4ffa-8755-a49979c218dd": "Suzanne Collins"
 }
 
+/**
+ * This object literal will store all the genre ID and genre category which is exported to be used in the script.js file
+ */
 export const genres = {
   "a4f80b3e-3e96-4266-b729-e09b71793182": "Economics",
   "6dd5bb6e-0172-4d6e-aa18-26f00954dd7a": "Non-fiction",
@@ -197,6 +209,10 @@ export const genres = {
   "64c4197d-5f8e-4bff-b440-6d19bc591fd9": "Magic"
 }
 
+
+/**
+ * This object literal hold the book properties including the id, genres, popularity, image, description, published date and author ID which will be exported to be used in the script.js file
+ */
 export const books = [
   {
     "id": "760b3450-9c86-42d0-8eff-e793bf823756",
