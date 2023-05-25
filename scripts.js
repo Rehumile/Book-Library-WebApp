@@ -1,15 +1,28 @@
+   // @ts-check
     import { BOOKS_PER_PAGE, authors, genres, books, html} from './data.js'
 
     // Data
 
-    //The varibale will be used to store matches of current filter settings from the books object
-    let matches = books
-
-    //This variable will be used to as the current page of books being display and will increment by 1
-    let page = 1;
+    /**
+     * The variable will be used to store matches of 
+     * current filter settings from the books object.
+     * @type {Array}
+     */
+    let matches = books 
+    
 
     /**
-     * This object literal stores the settings of the colors of the dark and night mode in 'RGB' form. This will update the css settings when user chooses between dark and night mode
+     * This variable will be used to as the current page of 
+     * books being display and will increment by 1.
+     * @type {number}
+     */
+    let page = 1; 
+   
+
+    /**
+     * This object literal stores the settings of the colors of the dark and night mode in 'RGB' form. 
+     * This will update the css settings when user chooses between dark and night mode
+     * @type {Object}
      */
     const css = { 
         day: {
@@ -43,9 +56,12 @@
     // Functions
 
     /**
-     * A function that takes a book as an object literal and converts it into an HTML element that can be appended to the DOM. Creating book elements individually prevents the JS having to re-render the entire DOM every time a new book is created
-     * @param {object} props 
-     * @returns {HTMLElement}
+     * A function that takes a book as an object literal and 
+     * converts it into an HTML element that can be appended to the DOM.
+     *  Creating book elements individually prevents the JS having to re-render 
+     * the entire DOM every time a new book is created.
+     * @param {object} props - Book object literal with book properties
+     * @returns {HTMLElement} - HTML element with book details
      */
         const createPreview = (props) => {
         const {author,  id, image, title} = props

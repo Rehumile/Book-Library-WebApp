@@ -212,7 +212,7 @@ export const genres = {
 
 /**
  * This object literal hold the book properties including the id, genres, popularity, image, description, published date and author ID which will be exported to be used in the script.js file
- */
+*/
 export const books = [
   {
     "id": "760b3450-9c86-42d0-8eff-e793bf823756",
