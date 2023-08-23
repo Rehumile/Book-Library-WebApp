@@ -1,6 +1,6 @@
 # 📚Book Library Web App
 
-This Book Library app is social media platfrom that is specifically targeted at book enthusiast. Users are able to see a preview off the various books. This app inlcudes basic features such as if you would like to see a description of the book you are able to click on any book you choose to see it, it allows you to filter the books by genre, author or title and you are able to toggle between light and dark mode so you can read comfortably at night.
+This Book Library app is a social media platform that targets book enthusiasts where users can see a preview of various books. This app includes basic features such as clicking on a book to view the description, filtering by genre, author, or title, and the ability to toggle between light and dark modes to read comfortably at night.
 
 - [📚Book Library Web App](#book-library-web-app)
   - [Features](#features)
